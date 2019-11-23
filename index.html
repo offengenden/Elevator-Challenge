@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elevator Challenge</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/help.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="buildings-wrapper" data-buildings-ph></div>
+
+    <div data-building class="building" style="display: none;">
+        <div data-building-floors style="width: 300px;">
+            <div class="floor">
+                <button class="metal linear">0</button>
+                <span class="time not-active"></span>
+                <div class="blackline"></div>
+            </div>        
+        </div>
+        <div class="peers-container">
+            <div class="peer">
+                <div class="elevator"></div>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<script src="sources/app-data.js"></script>
+<script src="sources/building-builder.js"></script>
+<script src="sources/building-manager.js"></script>
+<script src="sources/floor-buttons.js"></script>
+<script src="sources/elevator.js"></script>
+<script src="sources/building.js"></script>
+<script src="sources/app.js"></script>
+</html>
